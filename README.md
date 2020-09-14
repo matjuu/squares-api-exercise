@@ -28,7 +28,7 @@ Up to you! Design API contracts how you desire - as long as the UI team can use 
 * The solution code must be in a `git` repository
 * The API should be implemented using .NET Core framework (ideally the newest stable version)
 * The API must have some sort of persistance layer
-* After sending a request the consumer shouldn't wait more than 5 seconds
+* After sending a request the consumer shouldn't wait more than 5 seconds for a response
 
 ### Bonus points stuff!
 * Documentation generated from code (hint - `Swagger`)
