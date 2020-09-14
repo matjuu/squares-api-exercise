@@ -21,6 +21,7 @@ Create an API that enables consumer to find out what and how many squares can be
 * I as a user can retrieve the squares identified
 
 ### Non-fuctional
+* The solution must be hosted on a `git` repository
 * The API should be implemented using .NET Core 3 framework
 * The API must have some sort of persistance layer
 * After sending a request the consumer shouldn't wait more than 5 seconds
