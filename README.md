@@ -8,9 +8,9 @@ A user interface allows a user to import a list of points, add and delete a poin
 ### The task
 The Squares UI team is taking care of the front-end side of things, however they need your help for the backend solution.
 
-Create an API that enables consumer to find out what and how many squares can be drawn from a given set of points in a 2D plane. A point is a pair of integer X and Y coordinates. A square is a set of 4 points that when connected make up, well, a square. 
+Create an API that enables the consumer to find out what and how many squares can be drawn from a given set of points in a 2D plane. A point is a pair of integer X and Y coordinates. A square is a set of 4 points that when connected make up, well, a square. 
 
-### Example of a square:
+### Example of an identified square:
 ```[(-1;1), (1;1), (1;-1), (-1;-1)]```
 
 ## Requirements
@@ -21,8 +21,8 @@ Create an API that enables consumer to find out what and how many squares can be
 * I as a user can retrieve the squares identified
 
 ### Non-fuctional
-* The solution must be hosted on a `git` repository
-* The API should be implemented using .NET Core 3 framework
+* The solution code must be in a `git` repository
+* The API should be implemented using .NET Core framework (ideally the newest stable version)
 * The API must have some sort of persistance layer
 * After sending a request the consumer shouldn't wait more than 5 seconds
 
@@ -33,9 +33,12 @@ Create an API that enables consumer to find out what and how many squares can be
 * Performance considerations
 * Measuring SLI's
 * Considerations for scalability of the API
+* Comments/thoughts on the decisions you made
 
 ### A quick tip:
-Don't reinwent the wheel when it comes to identifying squares. There are plenty of existing solutions to the problem online!
+Don't reinvent the wheel when it comes to identifying squares. There are plenty of existing solutions to the problem online!
 
 ## The time for the solution
-Take *as long as you need* on the solution but we suggest to limit yourself at 8 hours. The task is not made to be completed in that time period and noone expects you to! However, knowing how much time you spent and seeing the solution you came out with allows for seeing what you prioritize and where you would consider cutting corners on a sharp deadline.
+Take *as long as you need* on the solution but we suggest to limit yourself at 8 hours. Do let us know how much time it took you!
+
+The task is not made to be completed in the period of 8 hours and noone expects you to! However, knowing how much time you spent and seeing the solution you came up with allows for seeing what you prioritize and where you would consider cutting corners on a sharp deadline.
