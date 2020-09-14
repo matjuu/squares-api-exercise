@@ -1,5 +1,5 @@
 # Squares API
-## Problem
+## Problem Definition
 ### The bigger picture
 The Squares solution is designed to enable our enterprise consumers to identify squares from coordinates and thus make the world a better place.
 
@@ -24,6 +24,7 @@ Up to you! Design API contracts how you desire - as long as the UI team can use 
 * I as a user can retrieve the squares identified
 
 ### Non-fuctional
+* Include prerequisites and steps to launch in `README`
 * The solution code must be in a `git` repository
 * The API should be implemented using .NET Core framework (ideally the newest stable version)
 * The API must have some sort of persistance layer
