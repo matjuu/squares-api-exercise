@@ -10,8 +10,11 @@ The Squares UI team is taking care of the front-end side of things, however they
 
 Create an API that enables the consumer to find out what and how many squares can be drawn from a given set of points in a 2D plane. A point is a pair of integer X and Y coordinates. A square is a set of 4 points that when connected make up, well, a square. 
 
-### Example of an identified square:
+### Example of a list of points that make up a square:
 ```[(-1;1), (1;1), (1;-1), (-1;-1)]```
+
+### API request/response contracts
+Up to you! Design API contracts how you desire - as long as the UI team can use the API to solve user's problems.
 
 ## Requirements
 ### Functional
@@ -41,4 +44,4 @@ Don't reinvent the wheel when it comes to identifying squares. There are plenty 
 ## The time for the solution
 Take *as long as you need* on the solution but we suggest to limit yourself at 8 hours. Do let us know how much time it took you!
 
-The task is not made to be completed in the period of 8 hours and noone expects you to! However, knowing how much time you spent and seeing the solution you came up with allows for seeing what you prioritize and where you would consider cutting corners on a sharp deadline.
+The task is not made to be completed in the period of 8 hours and no one expects you to! However, knowing how much time you spent and seeing the solution you came up with allows for seeing what you prioritize and where you would consider cutting corners on a sharp deadline.
